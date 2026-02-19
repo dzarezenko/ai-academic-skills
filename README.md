@@ -15,14 +15,14 @@ The project is built on three core principles:
 
 ---
 
-## Bilingual Structure (UA / EN)
+## Bilingual Structure (ua / en)
 
 Every skill in this repository is organized into two language subfolders:
 
 ```
 skills/<category>/<skill-name>/
-├── UA/   ← Ukrainian version of the skill
-└── EN/   ← English version of the skill
+├── ua/   ← Ukrainian version of the skill
+└── en/   ← English version of the skill
 ```
 
 This separation ensures that each skill can be maintained, extended, and localized independently, without coupling between language variants.

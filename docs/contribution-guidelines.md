@@ -32,23 +32,23 @@ If no existing category fits, propose a new one in an issue before proceeding.
 
 ```
 skills/<category>/<skill-name>/
-├── UA/
-└── EN/
+├── ua/
+└── en/
 ```
 
-**Both `UA/` and `EN/` subfolders are mandatory.**
+**Both `ua/` and `en/` subfolders are mandatory.**
 A skill is not considered complete until both language variants exist.
 
 ### 3. Populate the language folders
 
-Add the skill content inside the `UA/` and `EN/` subfolders according to the skill format defined in `shared/schemas/`.
+Add the skill content inside the `ua/` and `en/` subfolders according to the skill format defined in `shared/schemas/`.
 Refer to `shared/examples/` for reference implementations.
 
 ### 4. Open a Pull Request
 
 - Branch from `main` using the naming convention: `skill/<skill-name>`.
 - Describe what the skill does, which category it belongs to, and what academic task it addresses.
-- Ensure both `UA/` and `EN/` folders are populated before requesting review.
+- Ensure both `ua/` and `en/` folders are populated before requesting review.
 
 ---
 
@@ -58,7 +58,7 @@ Refer to `shared/examples/` for reference implementations.
 |---|---|---|
 | Skill folder | `kebab-case` | `citation-to-dstu` |
 | Category folder | `kebab-case` | `literature-review` |
-| Language folders | uppercase ISO 639-1 code | `UA`, `EN` |
+| Language folders | lowercase ISO 639-1 code | `ua`, `en` |
 | Template files | `kebab-case` with extension | `abstract-template.md` |
 | Schema files | `kebab-case` with `.schema.json` | `skill-input.schema.json` |
 
@@ -68,7 +68,7 @@ Refer to `shared/examples/` for reference implementations.
 
 - **Do not** modify other skills unless fixing a clear bug.
 - **Do not** add runtime dependencies (this is a documentation-first repository).
-- **Do not** leave `UA/` or `EN/` folders empty in a merged PR (use a `.gitkeep` only during scaffolding phases).
+- **Do not** leave `ua/` or `en/` folders empty in a merged PR (use a `.gitkeep` only during scaffolding phases).
 - Keep all documentation in professional academic English and, where applicable, in grammatically correct Ukrainian.
 - Update `docs/roadmap.md` if your contribution corresponds to a planned milestone.
 

@@ -30,8 +30,8 @@ Each skill lives in its own subfolder under the relevant category:
 
 ```
 skills/<category>/<skill-name>/
-├── UA/   ← Ukrainian language variant
-└── EN/   ← English language variant
+├── ua/   ← Ukrainian language variant
+└── en/   ← English language variant
 ```
 
 This structure makes it trivial to:
@@ -58,7 +58,7 @@ Project-level documentation only. No skill content lives here.
 
 ## Language Separation Strategy
 
-Every skill **must** provide both a `UA/` and an `EN/` folder. This ensures:
+Every skill **must** provide both a `ua/` and an `en/` folder. This ensures:
 
 1. **Independence** — each language variant is maintained separately with no coupling.
 2. **Completeness** — consumers can require both variants to exist before a skill is considered stable.
@@ -71,7 +71,7 @@ Every skill **must** provide both a `UA/` and an `EN/` folder. This ensures:
 The architecture is intentionally flat and convention-based, which supports the following growth paths:
 
 - **New skill categories** — add a new subfolder under `skills/`.
-- **New languages** — add a new language folder (e.g., `DE/`, `PL/`) alongside `UA/` and `EN/`.
+- **New languages** — add a new language folder (e.g., `de/`, `pl/`) alongside `ua/` and `en/`.
 - **CLI integration** — the `shared/schemas/` layer provides a stable I/O contract for a future command-line runner.
 - **API integration** — skills can be wrapped as API endpoints; the bilingual folder structure maps cleanly to a `?lang=ua|en` query parameter.
 - **Plugin ecosystem** — IDE or browser extensions can consume skills by pointing at a skill's language folder.
