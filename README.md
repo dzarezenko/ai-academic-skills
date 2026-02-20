@@ -78,6 +78,7 @@ See [`docs/roadmap.md`](docs/roadmap.md) for the full roadmap.
 - [Architecture](docs/architecture.md) — Design decisions and extensibility notes.
 - [Contribution Guidelines](docs/contribution-guidelines.md) — How to add new skills.
 - [Roadmap](docs/roadmap.md) — Planned versions and milestones.
+- [External Skills](docs/external-skills.md) — Curated catalog of external skill repositories.
 
 ---
 
