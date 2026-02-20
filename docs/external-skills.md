@@ -1,6 +1,16 @@
 # External Skills
 
-A curated catalog of external repositories with agentic skills for AI coding assistants.
+A curated catalog of external resources with agentic skills for AI coding assistants.
+
+---
+
+## Marketplaces
+
+Directories and platforms for discovering, browsing, and installing agentic skills.
+
+| Platform | Description |
+|---|---|
+| [skills.sh](https://skills.sh/) | The Agent Skills Directory — searchable marketplace with 69k+ installs, leaderboard, trending skills, and one-command install via `npx skills add <owner/repo>`. |
 
 ---
 
