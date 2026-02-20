@@ -70,3 +70,7 @@ site/
 *.log
 tmp/
 temp/
+
+# ── Agent Skills (externally installed) ──────────────────────────────────────
+.agents/
+skills-lock.json
